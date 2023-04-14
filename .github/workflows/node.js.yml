@@ -17,6 +17,10 @@ jobs:
       - run: npx token-transformer tokens.json tokens/light.json global,light,theme global
       # Create a dark theme, exclude the global tokens
       - run: npx token-transformer tokens.json tokens/dark.json global,dark,theme global
+      # Create a portal theme, exclude the global tokens
+      - run: npx token-transformer tokens.json tokens/portal.json global,portal,theme global
+      # Create a typography theme, exclude the global tokens
+      - run: npx token-transformer tokens.json tokens/typography.json global,typography,theme global
       # Convert tokens according to Style Dictionary config
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
