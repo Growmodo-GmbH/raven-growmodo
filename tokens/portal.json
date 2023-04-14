@@ -1,0 +1,50 @@
+{
+  "Primary": {
+    "25": {
+      "value": "#ebeef2",
+      "type": "color",
+      "description": "Accent for theme"
+    },
+    "50": {
+      "value": "#e6ebf1",
+      "type": "color",
+      "description": "Accent for the theme."
+    },
+    "100": {
+      "value": "#b0c2d3",
+      "type": "color"
+    },
+    "200": {
+      "value": "#8aa5be",
+      "type": "color"
+    },
+    "300": {
+      "value": "#547ca0",
+      "type": "color"
+    },
+    "400": {
+      "value": "#33628d",
+      "type": "color"
+    },
+    "500": {
+      "value": "#003b71",
+      "type": "color"
+    },
+    "600": {
+      "value": "#003667",
+      "type": "color"
+    },
+    "700": {
+      "value": "#002a50",
+      "type": "color"
+    },
+    "800": {
+      "value": "#00203e",
+      "type": "color"
+    },
+    "900": {
+      "value": "#00192f",
+      "type": "color"
+    }
+  }
+}

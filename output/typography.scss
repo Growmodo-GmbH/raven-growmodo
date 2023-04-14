@@ -1,0 +1,937 @@
+.typography-theme {
+          --font-families-headlines: Roboto;
+  --font-families-body: Roboto Condensed;
+  --line-heights-0: 90px;
+  --line-heights-1: 72px;
+  --line-heights-2: 60px;
+  --line-heights-3: 44px;
+  --line-heights-4: 38px;
+  --line-heights-5: 32px;
+  --line-heights-6: 36px;
+  --line-heights-7: 30px;
+  --line-heights-8: 28px;
+  --line-heights-9: 24px;
+  --line-heights-10: 20px;
+  --line-heights-11: 18px;
+  --font-weights-body-light: Light;
+  --font-weights-body-regular: Regular;
+  --font-weights-body-medium: Medium;
+  --font-weights-body-bold: Bold;
+  --font-weights-body-light-italic: Light Italic;
+  --font-weights-body-italic: Italic;
+  --font-weights-body-medium-italic: Medium Italic;
+  --font-weights-body-bold-italic: Bold Italic;
+  --font-weights-inter-4: Medium Italic;
+  --font-weights-inter-5: Italic;
+  --font-weights-inter-6: Semi Bold Italic;
+  --font-weights-inter-7: Bold Italic;
+  --font-weights-headlines-light: Light;
+  --font-weights-headlines-regular: Regular;
+  --font-weights-headlines-medium: Medium;
+  --font-weights-headlines-medium-italic: Medium Italic;
+  --font-weights-headlines-semibold: SemiBold;
+  --font-weights-headlines-bold: Bold;
+  --font-weights-headlines-black: Bold;
+  --font-size-0: 12px;
+  --font-size-1: 14px;
+  --font-size-2: 16px;
+  --font-size-3: 18px;
+  --font-size-4: 20px;
+  --font-size-5: 24px;
+  --font-size-6: 30px;
+  --font-size-7: 36px;
+  --font-size-8: 48px;
+  --font-size-9: 60px;
+  --font-size-10: 72px;
+  --letter-spacing-0: -2%;
+  --letter-spacing-1: 0%;
+  --paragraph-spacing-0: 0px;
+  --paragraph-spacing-1: 12px;
+  --paragraph-spacing-2: 14px;
+  --paragraph-spacing-3: 16px;
+  --paragraph-spacing-4: 18px;
+  --paragraph-spacing-5: 20px;
+  --paragraph-spacing-6: 24px;
+  --paragraph-spacing-7: 28px;
+  --paragraph-spacing-8: 30px;
+  --paragraph-spacing-9: 32px;
+  --paragraph-spacing-10: 36px;
+  --paragraph-spacing-11: 38px;
+  --paragraph-spacing-12: 48px;
+  --paragraph-spacing-13: 60px;
+  --paragraph-spacing-14: 72px;
+	.display-2xl-normal{ 
+		font-family: Roboto;
+      font-weight: 400;
+      line-height: 90px;
+      font-size: 72px;
+      letter-spacing: -2%;
+      line-height: 72px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-2xl-medium{ 
+		font-family: Roboto;
+      font-weight: 500;
+      line-height: 90px;
+      font-size: 72px;
+      letter-spacing: -2%;
+      line-height: 72px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-2xl-semibold{ 
+		font-family: Roboto;
+      font-weight: undefined;
+      line-height: 90px;
+      font-size: 72px;
+      letter-spacing: -2%;
+      line-height: 72px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-2xl-bold{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 90px;
+      font-size: 72px;
+      letter-spacing: -2%;
+      line-height: 72px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-2xl-black{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 90px;
+      font-size: 72px;
+      letter-spacing: -2%;
+      line-height: 72px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xl-normal{ 
+		font-family: Roboto;
+      font-weight: 400;
+      line-height: 72px;
+      font-size: 60px;
+      letter-spacing: -2%;
+      line-height: 60px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xl-medium{ 
+		font-family: Roboto;
+      font-weight: 500;
+      line-height: 72px;
+      font-size: 60px;
+      letter-spacing: -2%;
+      line-height: 60px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xl-semibold{ 
+		font-family: Roboto;
+      font-weight: undefined;
+      line-height: 72px;
+      font-size: 60px;
+      letter-spacing: -2%;
+      line-height: 60px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xl-bold{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 72px;
+      font-size: 60px;
+      letter-spacing: -2%;
+      line-height: 60px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xl-black{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 72px;
+      font-size: 60px;
+      letter-spacing: -2%;
+      line-height: 60px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-lg-normal{ 
+		font-family: Roboto;
+      font-weight: 400;
+      line-height: 60px;
+      font-size: 48px;
+      letter-spacing: -2%;
+      line-height: 48px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-lg-medium{ 
+		font-family: Roboto;
+      font-weight: 500;
+      line-height: 60px;
+      font-size: 48px;
+      letter-spacing: -2%;
+      line-height: 48px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-lg-semibold{ 
+		font-family: Roboto;
+      font-weight: undefined;
+      line-height: 60px;
+      font-size: 48px;
+      letter-spacing: -2%;
+      line-height: 48px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-lg-bold{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 60px;
+      font-size: 48px;
+      letter-spacing: -2%;
+      line-height: 48px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-lg-black{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 60px;
+      font-size: 48px;
+      letter-spacing: -2%;
+      line-height: 48px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-md-normal{ 
+		font-family: Roboto;
+      font-weight: 400;
+      line-height: 44px;
+      font-size: 36px;
+      letter-spacing: -2%;
+      line-height: 36px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-md-medium{ 
+		font-family: Roboto;
+      font-weight: 500;
+      line-height: 44px;
+      font-size: 36px;
+      letter-spacing: -2%;
+      line-height: 36px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-md-semibold{ 
+		font-family: Roboto;
+      font-weight: undefined;
+      line-height: 44px;
+      font-size: 36px;
+      letter-spacing: -2%;
+      line-height: 36px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-md-bold{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 44px;
+      font-size: 36px;
+      letter-spacing: -2%;
+      line-height: 36px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-md-black{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 44px;
+      font-size: 36px;
+      letter-spacing: -2%;
+      line-height: 36px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-sm-normal{ 
+		font-family: Roboto;
+      font-weight: 400;
+      line-height: 38px;
+      font-size: 30px;
+      letter-spacing: 0%;
+      line-height: 30px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-sm-medium{ 
+		font-family: Roboto;
+      font-weight: 500;
+      line-height: 38px;
+      font-size: 30px;
+      letter-spacing: 0%;
+      line-height: 30px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-sm-semibold{ 
+		font-family: Roboto;
+      font-weight: undefined;
+      line-height: 38px;
+      font-size: 30px;
+      letter-spacing: 0%;
+      line-height: 30px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-sm-bold{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 38px;
+      font-size: 30px;
+      letter-spacing: 0%;
+      line-height: 30px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-sm-black{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 38px;
+      font-size: 30px;
+      letter-spacing: 0%;
+      line-height: 30px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-sm-medium-italic{ 
+		font-family: Roboto;
+      font-weight: undefined;
+      line-height: 44px;
+      font-size: 30px;
+      letter-spacing: 0%;
+      line-height: 38px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xs-normal{ 
+		font-family: Roboto;
+      font-weight: 400;
+      line-height: 32px;
+      font-size: 24px;
+      letter-spacing: 0%;
+      line-height: 24px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xs-medium{ 
+		font-family: Roboto;
+      font-weight: 500;
+      line-height: 32px;
+      font-size: 24px;
+      letter-spacing: 0%;
+      line-height: 24px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xs-semibold{ 
+		font-family: Roboto;
+      font-weight: undefined;
+      line-height: 32px;
+      font-size: 24px;
+      letter-spacing: 0%;
+      line-height: 24px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xs-bold{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 32px;
+      font-size: 24px;
+      letter-spacing: 0%;
+      line-height: 24px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xs-black{ 
+		font-family: Roboto;
+      font-weight: 700;
+      line-height: 32px;
+      font-size: 24px;
+      letter-spacing: 0%;
+      line-height: 24px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.display-xs-medium-italic{ 
+		font-family: Roboto;
+      font-weight: undefined;
+      line-height: 36px;
+      font-size: 24px;
+      letter-spacing: 0%;
+      line-height: 32px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-light{ 
+		font-family: Roboto Condensed;
+      font-weight: 300;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-normal{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-medium{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-semibold{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-bold{ 
+		font-family: Roboto Condensed;
+      font-weight: 700;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-light-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-normal-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-medium-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-semibold-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-bold-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 20px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xl-normal-underlined{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 30px;
+      font-size: 20px;
+      letter-spacing: 0%;
+      line-height: 0px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: underline; 
+	}
+	.text-lg-light{ 
+		font-family: Roboto Condensed;
+      font-weight: 300;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-normal{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-medium{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-semibold{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-bold{ 
+		font-family: Roboto Condensed;
+      font-weight: 700;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-light-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-normal-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-medium-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-semibold-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-bold-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-lg-regular-underlined{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 18px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: underline; 
+	}
+	.text-lg-medium-underlined{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 28px;
+      font-size: 18px;
+      letter-spacing: 0%;
+      line-height: 28px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: underline; 
+	}
+	.text-md-light{ 
+		font-family: Roboto Condensed;
+      font-weight: 300;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-normal{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-medium{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-semibold{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-bold{ 
+		font-family: Roboto Condensed;
+      font-weight: 700;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-light-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-normal-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-medium-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-semibold-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-bold-italic{ 
+		font-family: Roboto Condensed;
+      font-weight: undefined;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-md-normal-underlined{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 24px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: underline; 
+	}
+	.text-md-medium-underlined{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 24px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: underline; 
+	}
+	.text-sm-light{ 
+		font-family: Roboto Condensed;
+      font-weight: 300;
+      line-height: 20px;
+      font-size: 14px;
+      letter-spacing: 0%;
+      line-height: 14px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-sm-normal{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 20px;
+      font-size: 14px;
+      letter-spacing: 0%;
+      line-height: 14px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-sm-medium{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 20px;
+      font-size: 14px;
+      letter-spacing: 0%;
+      line-height: 14px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-sm-semibold{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 20px;
+      font-size: 14px;
+      letter-spacing: 0%;
+      line-height: 14px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-sm-bold{ 
+		font-family: Roboto Condensed;
+      font-weight: 700;
+      line-height: 20px;
+      font-size: 14px;
+      letter-spacing: 0%;
+      line-height: 14px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-sm-normal-underlined{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 20px;
+      font-size: 14px;
+      letter-spacing: 0%;
+      line-height: 14px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: underline; 
+	}
+	.text-xs-light{ 
+		font-family: Roboto Condensed;
+      font-weight: 300;
+      line-height: 18px;
+      font-size: 12px;
+      letter-spacing: 0%;
+      line-height: 12px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xs-normal{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 18px;
+      font-size: 12px;
+      letter-spacing: 0%;
+      line-height: 12px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xs-medium{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 18px;
+      font-size: 12px;
+      letter-spacing: 0%;
+      line-height: 12px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xs-semibold{ 
+		font-family: Roboto Condensed;
+      font-weight: 500;
+      line-height: 18px;
+      font-size: 12px;
+      letter-spacing: 0%;
+      line-height: 12px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.text-xs-bold{ 
+		font-family: Roboto Condensed;
+      font-weight: 700;
+      line-height: 18px;
+      font-size: 12px;
+      letter-spacing: 0%;
+      line-height: 12px;
+      text-indent: 0px;
+      text-transform: none;
+      text-decoration: none; 
+	}
+	.system-text-md-uppercase{ 
+		font-family: Roboto Condensed;
+      font-weight: 400;
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 0%;
+      line-height: 16px;
+      text-indent: 0px;
+      text-transform: uppercase;
+      text-decoration: none; 
+	}
+  --text-case-none: none;
+  --text-case-uppercase: uppercase;
+  --text-decoration-none: none;
+  --text-decoration-underline: underline;
+  --paragraph-indent-0: 0px;
+      }
